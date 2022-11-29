@@ -22,8 +22,8 @@ from pydownloader.downloader import Downloader
 import shorturl
 import xdlink
 
-tl_admin_users = ['Abolanos3',] #Poner aqui los user con acceso permanente
-godlist = ['Abolanos3'] #Poner aqui los admin 
+tl_admin_users = ['overlordox',] #Poner aqui los user con acceso permanente
+godlist = ['overlordox'] #Poner aqui los admin 
 
 async def get_root(username):
     if os.path.isdir(config.ROOT_PATH+username)==False:
@@ -432,7 +432,7 @@ async def onmessage(bot:TelegramClient,ev: NewMessage.Event,loop,ret=False):
             await bot.send_file(ev.chat,txtsendname,
                                 caption=f'{txtinfo}',
                                 thumb='thumb.png',
-                                buttons=[Button.url('|ıllıll 𝑨𝒃𝒐𝒍𝒂𝒏𝒐𝒔3 |ıllıllı','https://t.me/Abolanos3')])
+                                buttons=[Button.url('|ıllıll 𝑨𝒃𝒐𝒍𝒂𝒏𝒐𝒔3 |ıllıllı','https://t.me/overlordox')])
             await bot.send_file(ev.chat,premium)
             #await bot.send_file('-1001831303559',txtsendname,
                                 #caption=f'{txtinfo}',
