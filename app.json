@@ -12,15 +12,15 @@
     },
     "api_id": {
       "description": "Api Id de telegram",
-      "value": "9902519"
+      "value": "15745491"
     },
     "api_hash": {
       "description": "Api Hash de telegram",
-      "value": "9d8097d05bbc90a6ed2a7a81abcd4e8a"
+      "value": "2618ec2cdeb1b513eabf02f83f5a1553"
     },
     "tl_admin_user": {
       "description": "Usuarios Permitidos",
-      "value": "Abolanos3"
+      "value": "overlordox"
     }
   }
 }
